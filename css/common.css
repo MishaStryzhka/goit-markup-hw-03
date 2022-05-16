@@ -24,6 +24,9 @@
 /* основний цвет фона #2F303A */
 /* вторичный цвет фона #f5f4fA */
 
+
+/* body */
+
 body {
     background-color: var(--logo-white-color);
     color: var(--primary-text-color1);
@@ -35,7 +38,18 @@ body {
 .container {
     margin-left: auto;
     margin-right: auto;
-    width: 1170px;
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+
+
+/* header */
+
+.main-nav {
+    display: flex;
+    align-items: center;
 }
 
 .logo.link,
@@ -70,27 +84,37 @@ body {
     color: var(--logo-secondary-color);
 }
 
-/* 
-.logo:hover,
-.logo:focus {
-    color: var(--primary-site-color);
-} 
-*/
-
 .logo-web {
     color: var(--primary-site-color);
 }
 
 /* site nav */
+
+.site-nav {
+    margin-left: 93px; 
+}
+
 .site-nav,
 .contact-nav {
+    display: flex;
+
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
 }
+ 
+.site-nav .item:not(:last-child),
+.contact-nav .item:not(:last-child) {
+    margin-right: 50px;
+}
+
 
 .site-nav .link {
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+
     color: var(--primary-text-color);
 }
 
@@ -103,9 +127,18 @@ body {
     color: var(--primary-site-color);
 }
 
+
 /* contact nav */
 
+.contact-nav {
+    margin-left: auto;
+}
+
 .contact-nav .link {
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+
     color: var(--secondary-text-color);
 }
 
@@ -113,6 +146,7 @@ body {
 .contact-nav .link:focus {
     color: var(--primary-site-color);
 }
+
 
 /* footer */
 
