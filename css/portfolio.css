@@ -1,0 +1,59 @@
+/* main */
+
+.main {
+        font-family: Roboto, sans-serif;
+        letter-spacing: 0.03em;
+}
+
+.title {
+    color: var(--primary-text-color);
+}
+
+/* button */
+
+.button {
+    color: var(--primary-text-color1);
+    background-color: var(--secondary-bg-color);
+    border-color: transparent;
+
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+
+}
+
+.button:hover {
+    color: var(title-text-color);
+    background-color: var(--primary-site-color);
+    cursor: pointer;
+}
+
+/* list */
+
+.list {
+    list-style: none;
+    text-decoration: none;
+}
+
+.list-element h2 {
+    color: var(--primary-text-color);
+
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.list-element a {
+    text-decoration: none;
+}
+
+.list-element p {
+    color: var(--secondary-text-color);
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.87;
+}

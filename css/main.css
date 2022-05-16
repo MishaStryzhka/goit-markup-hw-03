@@ -1,0 +1,91 @@
+
+/* main */
+
+.hero {
+    background-color: var(--primary-bg-color);
+}
+.hero-title {
+    color: var(--primary-white-color);
+
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+/* Button */
+
+.button {
+    cursor: pointer;
+
+    color: var(--primary-white-color);
+    background-color: var(--primary-site-color);
+    border-color: transparent;
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+}
+
+/* .button:hover {
+    cursor: pointer;
+
+    color: var(--primary-white-color);
+    background-color: var(--primary-site-color);
+} */
+
+/* section */
+
+.section {
+}
+.section-title {
+    color: var(--primary-text-color);
+
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+}
+
+/* features */
+
+.features .title {
+    color: var(--primary-text-color);
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.features .text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.17;
+}
+
+/* our team */
+
+.section-team {
+    background-color: var(--secondary-bg-color);
+}
+
+.section-team .list {
+}
+
+.names {
+    color: var(--primary-text-color);
+    font-size: 500; 
+    font-size: 16px;
+    line-height: 1.19;
+}
+.profession {
+    color: var(--secondary-text-color);
+    font-size: 16px;
+    line-height: 1.19;
+}
+.section-team li {
+    background-color: var(--primary-white-color);
+}
