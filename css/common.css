@@ -27,9 +27,7 @@
 body {
     background-color: var(--logo-white-color);
     color: var(--primary-text-color1);
-    width: 1600px;
-    margin: 0 auto;
-
+    
     font-family: Roboto, sans-serif;
     letter-spacing: 0.03em;
 }
