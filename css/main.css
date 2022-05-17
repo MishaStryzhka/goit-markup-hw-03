@@ -81,7 +81,7 @@ img {
 }
 
 .features .item {
-    width: 270px;   
+    max-width: 270px;   
 }
 
 .features .item:not(:nth-child(4n)) {
@@ -134,17 +134,13 @@ img {
     padding-bottom: 94px;
 }
 
-.section-team.container {
-    padding-top: 94px;
-    padding-bottom: 94px;
-}
-
 .section-team .list {
     display: flex;
     flex-wrap: wrap;
 }
 
 .section-team .item {
+    max-width: 270px;
     border-radius: 4px;
     text-align: center;
 }
@@ -153,7 +149,7 @@ img {
     margin-right: 30px;
 }
 
-.our-work .item:not(:nth-last-child(-n + 4)) {
+.section-team .item:not(:nth-last-child(-n + 4)) {
     margin-bottom: 30px;
 }
 
@@ -179,6 +175,8 @@ img {
     line-height: 1.19;
 
 }
-.section-team li {
+.section-team .item {
+    max-wight: 270px;
+
     background-color: var(--primary-white-color);
 }
