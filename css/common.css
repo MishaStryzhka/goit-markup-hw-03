@@ -41,7 +41,6 @@ body {
     width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
-
 }
 
 
@@ -83,7 +82,6 @@ header {
     margin: 0;
 }
 
-
 .logo {
     color: var(--logo-secondary-color);
 }
@@ -91,6 +89,7 @@ header {
 .logo-web {
     color: var(--primary-site-color);
 }
+
 
 /* site nav */
 
@@ -112,7 +111,6 @@ header {
 .contact-nav .item:not(:last-child) {
     margin-right: 50px;
 }
-
 
 .site-nav .link {
     display: block;

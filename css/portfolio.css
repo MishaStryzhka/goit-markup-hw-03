@@ -53,7 +53,7 @@
 }
 
 .button:hover {
-    color: var(title-text-color);
+    color: var(--title-text-color);
     background-color: var(--primary-site-color);
     cursor: pointer;
 }
