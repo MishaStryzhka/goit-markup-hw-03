@@ -3,7 +3,7 @@
 .hero {
     background-color: var(--primary-bg-color);
     text-align: center;
-} 
+}
 
 .hero.container {
     display: inline-block;
@@ -48,9 +48,6 @@
 
 /* section */
 
-.section {
-
-}
 .section-title {
     margin: 0;
     margin-bottom: 50px;
@@ -81,7 +78,7 @@ img {
 }
 
 .features .item {
-    max-width: 270px;   
+    max-width: 270px;
 }
 
 .features .item:not(:nth-child(4n)) {
@@ -141,9 +138,11 @@ img {
 
 .section-team .item {
     box-shadow: 0px 5px 5px -1px rgb(175 177 184);
-    max-width: 270px;
     border-radius: 4px;
     text-align: center;
+    max-width: 270px;
+
+    background-color: var(--primary-white-color);
 }
 
 .section-team .item:not(:nth-child(4n)) {
@@ -163,10 +162,11 @@ img {
     margin-bottom: 10px;
 
     color: var(--primary-text-color);
-    font-weight: 500; 
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
 }
+
 .list .profession {
     margin: 0;
     margin-bottom: 30px;
@@ -175,9 +175,4 @@ img {
     font-size: 16px;
     line-height: 1.19;
 
-}
-.section-team .item {
-    max-width: 270px;
-
-    background-color: var(--primary-white-color);
 }
