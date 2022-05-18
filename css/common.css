@@ -94,7 +94,7 @@ header {
 /* site nav */
 
 .site-nav {
-    margin-left: 93px; 
+    margin-left: 93px;
 }
 
 .site-nav,
@@ -106,7 +106,7 @@ header {
     line-height: 16px;
     letter-spacing: 0.02em;
 }
- 
+
 .site-nav .item:not(:last-child),
 .contact-nav .item:not(:last-child) {
     margin-right: 50px;
@@ -154,7 +154,6 @@ header {
 
 .footer {
     background-color: var(--primary-bg-color);
-    
     font-size: 14px;
     line-height: 1.71;
 }
@@ -162,6 +161,8 @@ header {
 .footer .container {
     padding-top: 60px;
     padding-bottom: 60px;
+
+    background-color: var(--primary-bg-color);
 }
 
 .footer .list {
@@ -183,6 +184,7 @@ header {
 .contacts {
     color: rgba(255, 255, 255, 0.6);
 }
+
 .contacts.link:hover,
 .contacts.link:focus {
     color: var(--primary-site-color);
