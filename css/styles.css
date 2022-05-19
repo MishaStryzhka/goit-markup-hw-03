@@ -380,7 +380,8 @@ header {
 
 /* list */
 
-.projects .list {
+.projects .projects-list {
+    padding: 0;
     display: flex;
     flex-wrap: wrap;
 
